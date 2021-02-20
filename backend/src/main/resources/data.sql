@@ -19,3 +19,8 @@ INSERT INTO tb_offer (edition, start_moment, end_moment, course_id) VALUES ('1.0
 INSERT INTO tb_offer (edition, start_moment, end_moment, course_id) VALUES ('2.0', TIMESTAMP WITH TIME ZONE '2022-03-20T03:00:00Z', TIMESTAMP WITH TIME ZONE '2023-03-20T03:00:00Z', 1);
 
 INSERT INTO tb_notification (text, moment, read, route, user_id) VALUES ('Bem vindo ao Bootcamp !', TIMESTAMP WITH TIME ZONE '2021-02-20T18:17:00Z', false, '', 1);
+INSERT INTO tb_notification (text, moment, read, route, user_id) VALUES ('Tarefa Concluida !', TIMESTAMP WITH TIME ZONE '2021-02-20T18:17:00Z', false, '', 1);
+
+INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Trilha HTML', 'Trilha principal do curso', 1, 'https://cdn.pixabay.com/photo/2018/03/12/20/09/training-3220712_1280.jpg', 1, 1); 
+INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Fórum', 'Fórum do Curso', 2, 'https://cdn.pixabay.com/photo/2018/03/12/20/09/training-3220712_1280.jpg', 2, 1); 
+INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) VALUES ('Lives', 'Lives de mercado', 3, 'https://cdn.pixabay.com/photo/2018/03/12/20/09/training-3220712_1280.jpg', 0, 1); 
